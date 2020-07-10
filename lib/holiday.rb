@@ -64,7 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
     season_hash.each do |holiday, supplies|
       holiday_string = holiday.to_s
       holiday_string.split("_")
-      puts "  #{ }: #{supplies.join(", ")}"
+      puts "  #{holiday_string}: #{supplies.join(", ")}"
     end
   end
   
